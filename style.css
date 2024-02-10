@@ -14,6 +14,9 @@ body {
   position: relative;
 }
 
+#close{
+  display: none;
+}
 
 
 nav {
@@ -27,6 +30,9 @@ header {
   padding-left: 100px;
   height: 67.89px;
   padding: 21.45px 100px;
+}
+header .hame{
+  display: none;
 }
 ul {
   display: flex;
@@ -107,6 +113,9 @@ main {
   margin: auto;
   width: 520px;
   height: 440.67px;
+}
+.none{
+  display: none;
 }
 
 .line1 {
@@ -284,7 +293,7 @@ main {
 
 .buttons button,
 .about-right button,
-.absolute button {
+.absolute button,.users-main .btn1 {
   width: 224px;
   height: 66px;
   display: flex;
@@ -325,9 +334,10 @@ main {
 }
 
 .buttons :last-child,
-.about-right button i {
+.about-right button i,.users-main .btn1 i {
   background-color: rgba(86, 142, 255, 1);
   color: rgba(255, 255, 255, 1);
+ 
 }
 .buttons :last-child i {
   background-color: #ffffff;
@@ -509,8 +519,7 @@ main {
   color: rgba(86, 142, 255, 1);
 }
 
-.main-2-left p {
-}
+
 .main-2-left :nth-child(2) {
   width: 579px;
   height: 72px;
@@ -592,7 +601,7 @@ main {
 }
 
 .community .community-left {
-  background: url(/Images/Asset\ 1Global.png);
+  /* background: url(/Images/Asset\ 1Global.png); */
   background-repeat: no-repeat;
   margin-bottom: 79px;
 }
@@ -855,20 +864,6 @@ cursor: pointer;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .main-footer{
   display: flex;
   align-items: center;
@@ -894,6 +889,7 @@ letter-spacing: 0.01em;
 text-align: left;
 width: 450px;
 margin-bottom: 20px;
+color: #666666;
 }
 .flex-2{
   display: flex;
@@ -985,7 +981,3 @@ color: #666666;
   color: #666666;
 }
 
-
-
-
-   
